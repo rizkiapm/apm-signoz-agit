@@ -82,7 +82,7 @@ jobs:
         # sebelumnya bikin `go vet` manual noise (Seek signature, copylocks, dll).
         uses: golangci/golangci-lint-action@v6
         with:
-          version: latest
+          version: v1.65.0
 
       - name: Build
         run: go build ./...
